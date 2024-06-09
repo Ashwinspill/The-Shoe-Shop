@@ -1,0 +1,50 @@
+/* Home.css */
+.big-image {
+    height: 300px; /* Adjust height as needed */
+    background-image: url('C:\Users\ashwin\Desktop\Images for ayataPro\bannerwww_2880x.webp'); /* Add your image path */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.sidewise-scroll {
+    padding: 50px 0;
+    overflow-x: auto; /* Change to auto to show scrollbar when needed */
+}
+
+.sidewise-scroll .row {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.sidewise-scroll .card {
+    flex: 0 0 auto;
+    margin-right: 15px; /* Adjust margin as needed */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 50px 0;
+}
+
+footer h3 {
+    color: white;
+}
+
+/* Reduce size of shoe images */
+.card-img-top {
+    max-height: 200px; /* Adjust max-height as needed */
+}
